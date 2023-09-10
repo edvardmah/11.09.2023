@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url(./img/D613.webp);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.video{
+    height: 100vh;
+}
+
+@media screen and (max-width: 1024px) {
+    .video {
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .video {
+        height: 79vh;
+        width: 378px;
+    }
+}
+
+@media screen and (max-width: 475px){
+    .video {
+        height: 79vh;
+        width: 355px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .video {
+        height: 67vh;
+        width: 310px;
+    }
+}
